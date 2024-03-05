@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1vw;
+  height: 14vh;
+  width: 100%;
+  color: #fff;
+}
+.logo img {
+  height: 10vh;
+  object-fit: cover;
+  object-position: center;
+}
+.mid {
+  display: flex;
+  gap: 4vw;
+}
+.mid h5 {
+  font-size: 1vw;
+  font-weight: 900;
+}
+.end {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.end button {
+  height: 60%;
+  width: 45%;
+  font-size: 0.9vw;
+  font-weight: 900;
+}
+.main {
+  color: #fff;
+  height: calc(93vh - 14vh);
+  width: 100%;
+  text-align: center;
+}
+.main h1 {
+  font-size: 9vw;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+.mid-txt {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+  position: relative;
+  z-index: 99;
+}
+.mid-txt span {
+  padding: 1.8vw 3.5vw;
+  background: #7e3836;
+  border-radius: 50px;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 99;
+}
+.main .nth {
+  margin-top: 3vw;
+}
+.main .img img,
+.main .img2 img,
+.main .img3 img,
+.main .img4 img {
+  height: 15vw;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main .img2 img {
+  top: 70%;
+  left: 21%;
+  height: 28vh;
+  z-index: 9;
+}
+.main .img3 img {
+  top: 60%;
+  left: 80%;
+  height: 35vh;
+  z-index: 9;
+}
+.main .img4 img {
+  top: 12.5%;
+  left: 60%;
+  height: 27vh;
+  z-index: 9;
+}
+.scroll {
+  font-size: 1.3vw;
+  font-weight: 900;
+  position: absolute;
+  left: 48%;
+  top: 90%;
+  opacity: 0;
+}
+.loader{
+  height: 100vh;
+  width: 100%;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+.loader h1{
+  font-size: 4vw;
+}
